@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color:#FFFFFF;
+    --secondary-color:#A259FF;
+    --font-primary: 'Work Sans', sans-serif;
+    --font-secondary: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #2b2b2b;
+    color:var(--primary-color); 
+    margin:0;
+    font-family: var(--font-primary)
+
+}

@@ -364,3 +364,34 @@ ul {
     font-family: var(--font-secondary);
     position: absolute;
 }
+
+/* categories */
+
+.category-text{
+    gap:10px;
+    text-align: left;
+    margin: 0 auto;
+    width: 1050px;
+    align-items: flex-start;
+}
+
+.category-card{
+    & img {
+        width: 240px;
+        height: 240px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    & span {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 140%;
+        padding: 20px 30px 25px 30px;
+        background-color: #3b3b3b;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+.category-wrapper, .category-row {
+    gap: 30px;
+}
